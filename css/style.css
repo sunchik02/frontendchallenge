@@ -15,42 +15,51 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 430px;
   background-color: black;
+  height: 50px;
 }
-
+.arrow-left {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .restaurant-list {
   padding-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 395px;
+  width: 430px;
   display: inline-block;
   background-color: white
 }
 .location:hover{
   background-color: #DCDCDC;
 }
+.content  {
+  float: left;
+}
 .restaurant-list h1 {
   font-size: 1.8em;
   font-weight: bold;
   line-height: 150%;
   padding-top: 10px;
+  margin-left: 20px;
 }
 .restaurant-list h3 {
   font-size: 1.2em;
   line-height: normal;
   padding-bottom: 10px;
+  margin-left: 20px;
 }
-.arrow  {
+.arrow {
   display: inline-block;
   float: right;
-  padding-bottom: 5px;
+  margin-top: 20px;
 }
-
 .location {
-    border-bottom-style: solid;
-    border-bottom-color: dark-gray;
-    border-bottom-width: .05px;
+  padding-right: 23px;
+  border-bottom-style: solid;
+  border-bottom-color: #A9A9A9;
+  border-bottom-width: .05px;
+  width: 94.5%;
+  display: inline-block;
 }
