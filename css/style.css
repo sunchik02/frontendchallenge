@@ -1,15 +1,114 @@
-*, *:before, *after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  width: 360px;
+}
+.status-bar {
+  margin: 0 auto;
+  position: fixed;
+  width: 360px;
+}
+nav {
+  margin: 0 auto;
+  width: 360px;
+  background-color: #0D47A1;
+  height: 60px;
+}
+
+
+.bars {
+  padding-top: 35px;
+  padding-left: 15px;
+  float: left;
+  color: white;
+}
+.fav {
+  padding-top: 35px;
+  padding-right: 15px;
+  float: right;
+  color: white;
+}
+
+/*body*/
+.start {
+  padding-top: 15px;
+  float:left;
+  margin-left: 20px;
+}
+.end {
+  padding-top: 10px;
+  float:left;
+  margin-left: 20px;
+}
+.routing {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 360px;
+  height: auto;
+  background-color: #ecf1f9;
+}
+.Bound {
+  padding-bottom: 5px;
+}
+
+.lines {
+ width: 360px;
+ margin-left: 20px;
+
+}
+p {
+  padding-bottom: 10px;
+}
+
+.arrival {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+.number {
+  float:left;
+  width: 20%;
+}
+.navbar {
+  margin-left: 19%;
+  position: fixed;
+  width: 360px;
+}
+
+
+
+/*text*/
 h1 {
+  padding-top: 30px;
+  margin-left: 10%;
   font-size: 1.5em;
   font-weight: bold;
   font-family: sans-serif;
-  width: 100%;
-  padding-left: 100px;
+  color: white;
+  display: inline-block;
 }
-
-container {
-
+h3 {
+  font-size: 120%;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #505050;
+  margin-left: 20px;
+}
+h4 {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #505050;
+}
+p {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #505050;
+}
+li {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #505050;
 }
