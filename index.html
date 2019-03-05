@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   </head>
 
   <!--nav-->
@@ -13,7 +14,7 @@
   <section class="container">
     <nav>
       <div class="status-bar">
-        <img src="css/images/status-bar.png">
+        <img src="css/images/status-bar.png" alt="status bar">
       </div>
       <div class="bars">
         <i class="fas fa-bars"></i>
@@ -24,14 +25,17 @@
       <div class="page">
         <h1>Routes</h1>
       </div>
-      <div class="start">
-        <img src="css/pngs/start.png">
-      </div>
-        <div class="end">
-        <img src="css/pngs/end.png">
+      <div class="clearfix">
+          <form action="/action_page.php">
+          <label for="start">Start</label>
+          <input type="text" id="start" name="Start" placeholder="Washington & State"><br>
+          <label for="end">End</label>
+          <input type="text" id="End" name="end" placeholder="Dharma College">
+          </form>
       </div>
   </nav>
  </section>
+
 
 
 <!--eastbound-->
@@ -42,7 +46,7 @@
   <div class="lines">
   <ul>
     <li class="number">
-      <img src="css/pngs/60.png">
+      <img src="css/pngs/60.png" alt="line number">
     <li class="bus-info">
       <h4>Randolph/Harbor Dr</h4>
       <p>Every 20 minutes</p>
@@ -51,41 +55,44 @@
   </ul>
   <ul>
     <li class="number">
-      <img src="css/pngs/124.png">
+      <img src="css/pngs/124.png" alt="line number">
     <li class="bus-info">
       <h4>Navy Pier</h4>
       <p>Every 10 minutes</p>
     </li>
     <li class="arrival">6 min</li>
   </ul>
-</div>
+ </div>
+</section>
 
 
   <!--northbound-->
+<section class="routing">
   <div class="Bound">
     <h3>Northbound</h3>
   </div>
   <div class="lines">
   <ul>
     <li class="number">
-      <img src="css/pngs/151.png">
+      <img src="css/pngs/151.png" alt="line number">
     <li class="bus-info">
       <h4>Devon/Clark</h4>
       <p>Every 16 minutes</p>
     </li>
     <li class="arrival">8 min</li>
   </ul>
-</div>
-
+ </div>
+</section>
 
   <!--southbound-->
+<section class="routing">
   <div class="Bound">
     <h3>Southbound</h3>
   </div>
   <div class="lines">
   <ul>
     <li class="number">
-      <img src="css/pngs/J14.png">
+      <img src="css/pngs/J14.png" alt="line number">
     <li class="bus-info">
       <h4>103rd/Stony Island</h4>
       <p>Every 15 minutes</p>
@@ -94,48 +101,51 @@
   </ul>
   <ul>
   <li class="number">
-    <img src="css/pngs/124.png">
+    <img src="css/pngs/124.png" alt="line number">
   <li class="bus-info">
     <h4>Navy Pier</h4>
     <p>Every 10 minutes</p>
   </li>
   <li class="arrival">7 min</li>
-</ul>
-</div>
-
+  </ul>
+ </div>
+</section>
 <!--reroute-->
-<div class="Bound">
+<section class="routing">
+ <div class="Bound">
   <h3>Reroute</h3>
 </div>
 <div class="lines">
 <ul>
   <li class="number">
-    <img src="css/pngs/6X.png">
+    <img src="css/pngs/6X.png" alt="line number">
   <li class="bus-info">
     <h4>Jackson Park Express</h4>
     <p>N/A</p>
   </li>
   <li class="arrival">N/A</li>
-</ul>
-</div>
+  </ul>
+ </div>
+</section>
 
 <!--Out of Service-->
-<div class="Bound">
+<section class="routing">
+ <div class="Bound">
   <h3>Out of Service</h3>
 </div>
 <div class="lines">
 <ul>
   <li class="number">
-    <img src="css/pngs/4.png">
+    <img src="css/pngs/4.png" alt="line number">
   <li class="bus-info">
-    <h4>Gottage Grove</h4>
+    <h4>Cottage Grove</h4>
     <p>Resumes 12:10am</p>
   </li>
   <li class="arrival">N/A</li>
 </ul>
 <ul>
 <li class="number">
-  <img src="css/pngs/20.png">
+  <img src="css/pngs/20.png" alt="line number">
 <li class="bus-info">
   <h4>Madison</h4>
   <p>Resumes 12:10am</p>
@@ -144,7 +154,7 @@
 </ul>
 <ul>
 <li class="number">
-  <img src="css/pngs/157.png">
+  <img src="css/pngs/157.png" alt="line number">
 <li class="bus-info">
   <h4>Streeterville/Taylor</h4>
   <p>Resumes 6:00am</p>
@@ -154,10 +164,8 @@
 </div>
 </section>
 
-<section>
-  <div class="navbar">
-    <img src="css/pngs/navbar.png" alt="">
-  </div>
-  </section>  
+  <section class="container">
+    <img src="css/pngs/navbar.png" alt="navbar">
+  </section>
   </body>
 </html>
