@@ -36,7 +36,10 @@ label {
   display: block;
   padding-left: 35px;
   font-family: Roboto;
-  padding-top: 3px;
+  padding-top: 8px;
+}
+form {
+  padding-bottom: 5px;
 }
 input[type=text], select {
   width: 80%;
@@ -50,9 +53,6 @@ input[type=text], select {
   font-family: Roboto;
   margin-left: 35px;
 }
-input#End {
-  margin-bottom: 8px;
-}
 .routing {
   margin: 0 auto;
   width: 360px;
@@ -61,6 +61,7 @@ input#End {
 }
 .Bound {
   padding-bottom: 5px;
+  padding-top: 8px;
 }
 .lines {
  width: 360px;
@@ -138,6 +139,7 @@ p {
   font-size: 80%;
   font-family: Roboto;
   color: #505050;
+  padding-top: 2px;
   padding-bottom: 5px;
 }
 li {
